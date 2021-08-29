@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="static/css/login.css">
+        <script src="static/js/fontawesome.js"></script>
+        <title>Login</title>
+    </head>
+
+    <body>
+        <div class="login__header">
+
+        </div>
+        <div id="login">
+            <form method="post">
+                <div class="login__form">
+                    <div class="brand m-auto m-top">
+                        <b>Brand Name</b>
+                    </div>
+
+                    <div class="login-form">
+                        <div class="left">
+                            <img src="static/img/mobile-login.svg" alt="mobile login">
+                        </div>
+                        <div class="right">
+                            <h1>Login</h1>
+
+                            <div class="usertype_options m-2">
+                                <div class="radioBox">
+                                    <input type="radio" name="usertype" id="usertype_0" checked><label
+                                        for="usertype_0"><i class="fas fa-user-graduate"></i> Student</label></input>
+                                </div>
+
+
+                                <div class="radioBox">
+                                    <input type="radio" name="usertype" id="usertype_1"><label
+                                        for="usertype_1"><i class="fas fa-chalkboard-teacher"></i> Teacher</label></input>
+                                </div>
+
+
+                                <div class="radioBox">
+                                    <input type="radio" name="usertype" id="usertype_2"><label
+                                        for="usertype_2"><i class="fas fa-male"></i> Parent</label></input>
+                                </div>
+
+
+                                <div class="radioBox">
+                                    <input type="radio" name="usertype" id="usertype_3"><label for="usertype_3"><i class="fas fa-book-reader"></i> School
+                                        Leader</label></input>
+                                </div>
+
+                            </div>
+                            <div class="inputBox p-2">
+                                <input type="text" name="emailOrPhone" id="login_email_phone"
+                                    placeholder="Email or Phone">
+                            </div>
+                            <h4>-Or-</h4>
+                            <div class="inputBox p-2">
+                                <input type="number" name="admission_num" id="login_admission_num"
+                                    placeholder="Your admission number">
+                            </div>
+
+                            <div class="inputBox p-2">
+                                <input type="password" name="password" id="login_password" placeholder="Password">
+                                <label for="login_password"><br><a href="#"><small>forgot password</small></a></label>
+                            </div>
+
+                            <div class="p-2">
+                                <button class="btn btn-secondary" type="submit">Login</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>
